@@ -15,12 +15,14 @@ Change the port for running this program.
 The default port is 10007.
 
 
+
 <strong>Second Step</strong>
 
 Execute this program.
 ```java -cp . shell.exec.java.server.ShellExecServer```
 If you want to keep running after logout, Use this script
 ```nohup java -cp . shell.exec.java.server.ShellExecServer  > out.log 2> err.log &```
+
 
 
 <strong>Third Step</strong>
@@ -33,7 +35,7 @@ Execute ```ps -l```
 
 
 
-<strong>Third Step</strong>
+<strong>Forth Step</strong>
 
 To stop this program, you have to kill the process.
 The process id id written the top of your browser.Like ```PID:7436```
